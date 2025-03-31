@@ -31,8 +31,8 @@ smart_mixer/
 ### 1. Clone the repo
 
 ```bash
-git clone https://github.com/yourusername/smart_mixer.git
-cd smart_mixer
+git clone https://github.com/shamim-sulaiman/smart-mixer.git
+cd smart-mixer
 ```
 
 ### 2. Install dependencies
