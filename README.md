@@ -20,7 +20,6 @@ smart_mixer/
 ├── simulation/       # Core simulation logic
 ├── desktop_gui/      # Tkinter-based GUI
 ├── web_app/          # Streamlit web interface
-├── mock_plc/         # (Optional) PLC communication mock/stub
 ├── README.md
 ├── .gitignore
 └── requirements.txt
