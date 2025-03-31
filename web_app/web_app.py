@@ -7,6 +7,19 @@ from simulation.simulation import run_simulation
 st.set_page_config(page_title="Smart Mixing Tank Simulator", layout="centered")
 
 st.title("🧪 Smart Mixing Tank Simulator")
+with st.expander("📘 About this simulator", expanded=True):
+    st.markdown("""
+    This app simulates a continuously stirred tank mixer where **water and salt** are combined, and the goal is to maintain a **target salt concentration**.
+
+    **Key features:**
+    - 💧 Water and salt inflow are controlled via a **PID controller**
+    - ⚙️ The system simulates **mass balance** in real time
+    - 📊 Outputs include **tank volume**, **salt flow**, and **concentration**
+    - 💥 Optional disturbances simulate real-world process variability
+    - 🧠 Ideal for control logic testing, tuning, and process engineering education
+
+    Built with `Python`, `Streamlit`, `matplotlib`, and `simple-pid`.
+    """)
 
 st.sidebar.header("Simulation Settings")
 
