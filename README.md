@@ -27,6 +27,9 @@ smart_mixer/
 
 ## Getting Started
 
+You can use the [web-based dashboard here](https://smart-mixer.streamlit.app/)
+or you can run locally by following steps below;
+
 ### 1. Clone the repo
 
 ```bash
