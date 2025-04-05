@@ -19,10 +19,26 @@ with st.expander("📘 About this simulator", expanded=True):
     - 🧠 Ideal for control logic testing, tuning, and process engineering education
 
     Built with `Python`, `Streamlit`, `matplotlib`, and `simple-pid`.
-
-    © 2025 Shamim Sulaiman. All rights reserved.  
-    For demonstration and educational purposes only.
+    
     """)
+    st.markdown("---", unsafe_allow_html=True)
+    st.markdown("""
+        <style>
+        .footer {
+            position: relative;
+            bottom: 0;
+            width: 100%;
+            text-align: center;
+            color: #888;
+            font-size: 0.85rem;
+            padding: 10px 0;
+            margin-top: 2rem;
+        }
+        </style>
+        <div class="footer">
+            © 2025 <strong>Shamim Sulaiman</strong> · <a href="https://opensource.org/licenses/MIT" target="_blank">MIT License</a> · Built with <a href="https://streamlit.io/" target="_blank">Streamlit</a>
+        </div>
+    """, unsafe_allow_html=True)
 
 st.sidebar.header("Simulation Settings")
 
