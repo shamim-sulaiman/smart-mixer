@@ -31,7 +31,7 @@ with st.expander("📘 About this simulator", expanded=True):
             text-align: center;
             color: #888;
             font-size: 0.85rem;
-            padding: 10px 0;
+            padding: 5px 0;
             margin-top: 2rem;
         }
         </style>
