@@ -1,5 +1,5 @@
 
-# Smart Mixing Tank Simulator 🧪
+# 🧪 Smart Mixing Tank Simulator
 
 A Python-based simulation of a smart mixing tank with live process control, real-time visualization, and optional PLC integration (mocked or real).
 

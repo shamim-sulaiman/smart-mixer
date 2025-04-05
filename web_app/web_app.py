@@ -4,7 +4,7 @@ sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 import streamlit as st
 from simulation.simulation import run_simulation
 
-st.set_page_config(page_title="Smart Mixing Tank Simulator", layout="centered")
+st.set_page_config(page_title="Smart Mixing Tank Simulator", page_icon="🧪", layout="centered")
 
 st.title("🧪 Smart Mixing Tank Simulator")
 with st.expander("📘 About this simulator", expanded=True):
