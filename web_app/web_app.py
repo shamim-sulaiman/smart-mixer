@@ -19,6 +19,9 @@ with st.expander("📘 About this simulator", expanded=True):
     - 🧠 Ideal for control logic testing, tuning, and process engineering education
 
     Built with `Python`, `Streamlit`, `matplotlib`, and `simple-pid`.
+
+    © 2025 Shamim Sulaiman. All rights reserved.  
+    For demonstration and educational purposes only.
     """)
 
 st.sidebar.header("Simulation Settings")
