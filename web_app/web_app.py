@@ -20,8 +20,6 @@ with st.expander("📘 About this simulator", expanded=True):
 
     Built with `Python`, `Streamlit`, `matplotlib`, and `simple-pid`.
 
-
-    © 2025 Shamim Sulaiman · MIT License · Built with Streamlit
     """)
     
 st.sidebar.header("Simulation Settings")
@@ -61,7 +59,15 @@ if st.button("🚀 Run Simulation"):
             file_name="simulation_output.csv",
             mime="text/csv"
         )
-
+        
+with st.sidebar:
+    st.markdown("""
+            <hr>
+            <div style="text-align: center; font-size: 12px; color: gray;">
+                © 2025 Shamim Sulaiman<br>
+                Released under the <a href="https://opensource.org/licenses/MIT" target="_blank">MIT License</a>
+            </div>
+        """, unsafe_allow_html=True)
 
 
 
