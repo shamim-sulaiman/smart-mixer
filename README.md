@@ -25,7 +25,7 @@ smart_mixer/
 └── requirements.txt
 ```
 
-## Getting Started
+## How To Use
 
 You can use the [web-based dashboard here](https://smart-mixer.streamlit.app/)
 or you can run locally by following steps below;
