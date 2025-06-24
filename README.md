@@ -5,13 +5,13 @@ A Python-based simulation of a smart mixing tank with live process control, real
 
 ## Features
 
-- ✅ Real-time control using PID
-- ✅ Simulates tank volume, salt concentration, and flow
-- ✅ Desktop GUI with Tkinter
-- ✅ Web interface using Streamlit
-- ✅ CSV export and (optional) PNG graph
-- ✅ Modular design for future PLC integration (Modbus/OPC UA)
-- ✅ Live animated plotting in browser
+- Real-time control using PID
+- Simulates tank volume, salt concentration, and flow
+- Desktop GUI with Tkinter
+- Web interface using Streamlit
+- CSV export and (optional) PNG graph
+- Modular design for future PLC integration (Modbus/OPC UA)
+- Live animated plotting in browser
 
 ## Project Structure
 
