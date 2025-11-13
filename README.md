@@ -1,9 +1,9 @@
 
-# 🧪 Smart Mixing Tank Simulator
+## Smart Mixing Tank Simulator (a PID simulator)
 
 A Python-based simulation of a smart mixing tank with live process control, real-time visualization, and optional PLC integration (mocked or real).
 
-## Features
+### Features
 
 - Real-time control using PID
 - Simulates tank volume, salt concentration, and flow
@@ -13,7 +13,7 @@ A Python-based simulation of a smart mixing tank with live process control, real
 - Modular design for future PLC integration (Modbus/OPC UA)
 - Live animated plotting in browser
 
-## Project Structure
+### Project Structure
 
 ```
 smart_mixer/
@@ -25,10 +25,9 @@ smart_mixer/
 └── requirements.txt
 ```
 
-## How To Use
+### How To Use
 
-You can use the [web-based dashboard here](https://smart-mixer.streamlit.app/)
-or you can run locally by following steps below;
+You can use the [web-based dashboard here](https://smart-mixer.streamlit.app/) or you can run locally by following steps below;
 
 ### 1. Clone the repo
 
